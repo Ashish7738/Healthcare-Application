@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="5dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/dimage"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:padding="5dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                app:strokeColor="@color/blue"
+                app:strokeWidth="5dp"
+                android:transitionName="doctorImageTransition"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doctor Name"
+                    android:textColor="@color/blue"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"
+                    android:transitionName="doctorNameTransition"/>
+
+                <TextView
+                    android:id="@+id/dspecification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Specilization"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="10dp"
+                    android:transitionName="specificationTransition"/>
+
+                <TextView
+                    android:id="@+id/dexperience"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Experience"
+                    android:textSize="20sp"
+                    android:drawableLeft="@drawable/baseline_access_time_24"
+                    android:drawablePadding="1dp"
+                    android:transitionName="experienceTransition"/>
+
+                <TextView
+                    android:id="@+id/dlocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location"
+                    android:textSize="18sp"
+                    android:drawableLeft="@drawable/baseline_location_on_24"
+                    android:drawablePadding="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:transitionName="locationTransition"/>
+
+                <TextView
+                    android:id="@+id/dfees"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Consultation Fees"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginVertical="5sp"
+                    android:transitionName="consultationFeesTransition"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/appointment_bttn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/login_back"
+            android:text="Appointment"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:transitionName="appointmentButtonTransition"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
