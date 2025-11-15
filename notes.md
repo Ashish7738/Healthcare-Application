@@ -5,3 +5,4 @@ Add comment
 Minor polish
 Add example
 Minor polish
+Clarify naming
