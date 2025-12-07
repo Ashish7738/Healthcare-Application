@@ -1,1 +1,2 @@
 Add comment
+Clarify naming
