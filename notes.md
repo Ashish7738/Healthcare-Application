@@ -7,3 +7,4 @@ Add example
 Add comment
 Verify flow
 Note: performance implications
+Check documentation
