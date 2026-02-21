@@ -14,3 +14,4 @@ Try alternative approach
 Check documentation
 Verify flow
 Add example
+Minor polish
