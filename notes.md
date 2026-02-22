@@ -15,3 +15,4 @@ Check documentation
 Verify flow
 Add example
 Minor polish
+Clarify naming
