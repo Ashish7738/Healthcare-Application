@@ -21,3 +21,4 @@ Add comment
 Recheck assumptions
 Try alternative approach
 Keep simple
+Clarify naming
