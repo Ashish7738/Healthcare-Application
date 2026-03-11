@@ -22,3 +22,4 @@ Recheck assumptions
 Try alternative approach
 Keep simple
 Clarify naming
+Check documentation
