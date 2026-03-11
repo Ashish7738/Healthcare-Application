@@ -25,3 +25,4 @@ Clarify naming
 Check documentation
 Revisit later
 Verify flow
+Keep simple
