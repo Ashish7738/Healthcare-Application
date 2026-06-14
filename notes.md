@@ -11,3 +11,4 @@ Try alternative approach
 Add example
 Testing needed
 Consider edge cases
+Idea: caching layer
