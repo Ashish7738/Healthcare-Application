@@ -34,3 +34,4 @@ Cross-reference
 Try alternative approach
 Add example
 Add example
+Keep simple
