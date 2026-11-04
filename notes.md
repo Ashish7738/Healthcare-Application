@@ -25,3 +25,4 @@ Revisit later
 Verify flow
 Add example
 Consider edge cases
+Note: performance implications
