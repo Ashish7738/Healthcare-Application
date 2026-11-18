@@ -1,2 +1,0 @@
-Add example
-Cross-reference
